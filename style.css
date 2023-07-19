@@ -202,6 +202,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 120px;
 }
 
 .play-dis h2 {
@@ -226,6 +227,7 @@ nav {
     text-align: right;
     margin-left: 300px;
 }
+
 .play-dis p {
     color: #534C64;
     text-align: right;
@@ -251,7 +253,53 @@ nav {
     width: 318.5px;
     height: 365.083px;
     position: absolute;
-    bottom:-13%;
-    left:-15%;
+    bottom: -13%;
+    left: -15%;
     margin: -50px 0 0 -50px;
+}
+
+/* play section end */
+
+/* card section  */
+
+.card-sec {
+    height: 427;
+    background-color: #fff9fc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 300px;
+}
+
+.card {
+    border-radius: 50px;
+    background: #FFF;
+    width: 0 auto;
+    height: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+.card img {
+    margin-right: 16px;
+    /
+}
+
+.card h4 {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+
+}
+
+.card:hover{
+    border: 1px solid #ff42a5;
+    color: #ff42a5;
+    text-decoration: none;
 }
