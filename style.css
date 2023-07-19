@@ -298,8 +298,69 @@ nav {
 
 }
 
-.card:hover{
+.card:hover {
     border: 1px solid #ff42a5;
     color: #ff42a5;
     text-decoration: none;
+}
+
+/* card section end */
+
+/* footer */
+
+footer {
+    width: 1920px;
+    height: 350px;
+    background: #0B0223;
+    text-align: center;
+    padding: 150px 0px;
+
+}
+
+.logo-footer h1 {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.logo-footer h1 span {
+    color: #FF42A5;
+}
+
+.logo-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-list li {
+    margin: 56px 60px;
+}
+
+.footer-img img {
+    margin: 12px 20px 60px 20px;
+}
+
+.footer-list2 {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.footer-list2 li{
+    margin: 5px 60px 28px 60px;
 }
